@@ -31,10 +31,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left + viewPadding, systemBars.top + viewPadding, systemBars.right + viewPadding, systemBars.bottom + viewPadding)
             insets
         }
-
-        binding.historyBt.setOnClickListener {
-            startActivity(CalculatorHistoryActivity.getCallingIntent(this, historyOperations))
-        }
     }
 
 }
