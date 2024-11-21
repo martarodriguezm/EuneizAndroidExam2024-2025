@@ -4,8 +4,10 @@ Se te proporciona un proyecto Android que implementa una calculadora básica. La
 
 A continuación, un ejemplo del resultado esperado:
 
-<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator1.png?raw=true" alt="Screenshot 1" width="300"/>
-<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator2.png?raw=true" alt="Screenshot 2" width="300"/>
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator1.png?raw=true" alt="Screenshot 1" width="300"/>
+  <img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator2.png?raw=true" alt="Screenshot 2" width="300"/>
+</div>
 
 ---
 
@@ -72,8 +74,10 @@ You are provided with an Android project that implements a basic calculator. The
 
 Below is an example of the expected outcome:
 
-<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator1.png?raw=true" alt="Screenshot 1" width="300"/>
-<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator2.png?raw=true" alt="Screenshot 2" width="300"/>
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator1.png?raw=true" alt="Screenshot 1" width="300"/>
+  <img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator2.png?raw=true" alt="Screenshot 2" width="300"/>
+</div>
 
 ---
 
