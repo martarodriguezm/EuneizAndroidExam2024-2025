@@ -4,8 +4,8 @@ Se te proporciona un proyecto Android que implementa una calculadora básica. La
 
 A continuación, un ejemplo del resultado esperado:
 
-![App Screenshot 1](calculator1.png)
-![App Screenshot 2](calculator2.png)
+<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator1.png?raw=true" alt="Screenshot 1" width="300"/>
+<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator2.png?raw=true" alt="Screenshot 2" width="300"/>
 
 ---
 
@@ -57,6 +57,75 @@ Dedicaremos un máximo de 30 minutos a dudas y puesta en marcha del proyecto And
 - Se valorará el uso de los elementos vistos en clase.
 - Se penalizará el uso de elementos innecesarios para la implementación solicitada.
 
+---
 
 ## Disclaimer
-- No, no se utiliza Jetpack Compose.
+Este examen no utiliza Jetpack Compose para el desarrollo de la interfaz de usuario.
+
+
+
+---
+
+# ANDROID EXAM: Calculator Application with History
+
+You are provided with an Android project that implements a basic calculator. The logic for the operations is encapsulated in the `Calculator` class, but the application is not finished. Your goal is to complete the application by adding functionality to the `MainActivity` and the `CalculatorHistoryActivity` (detailed below). You must use the provided logic and manage the operations history.
+
+Below is an example of the expected outcome:
+
+<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator1.png?raw=true" alt="Screenshot 1" width="300"/>
+<img src="https://github.com/martarodriguezm/EuneizAndroidExam2024-2025/blob/main/calculator2.png?raw=true" alt="Screenshot 2" width="300"/>
+
+---
+
+## Time
+We will dedicate a maximum of 30 minutes to questions and setup of the provided Android project. After that time, the exam will last for 3 hours.
+
+## Allowed Tools
+- Use of the computer and Internet connection.
+- Consult exercises done in class and search for information on the Internet.
+
+## Not Allowed Tools
+- Using messaging tools or similar to talk to other people is not allowed. This will result in immediate failure.
+
+---
+
+## Objectives
+
+### MainActivity
+- Implement the graphical interface of the calculator using the necessary UI elements.
+- Implement the interaction logic between the UI buttons of the calculator and the `Calculator` class to perform addition, subtraction, multiplication, and division operations.
+- Each time the user performs an operation, it should be saved in a temporary list in memory, using the data class `OperationRecord` to store the details of each operation.
+- When the "History" button is pressed, the app should navigate to the `CalculatorHistoryActivity`.
+
+### CalculatorHistoryActivity
+- Display a list of all the operations performed by the user in the same session.
+- The history should accurately reflect the operations performed in `MainActivity` so far.
+- The Toolbar should have a "Back" button so that the user can return to `MainActivity` when pressed.
+
+### History Management
+- The operations history should be maintained during the app's execution. However, when the app is closed, the history should be lost and start again in the next execution.
+
+---
+
+## Technical Details
+
+- **Calculator View**: You should design the UI that contains at least the numeric buttons (0-9), basic operators (+, -, *, ÷, =), a button to clear (AC), and a field to display the results.
+- **List in CalculatorHistoryActivity**: Set up a list to display the operations history. Each row in the list should display the operands, the operator, and the result of the operation.
+
+---
+
+## Deliverables
+- A functional Android project that meets the above requirements (zip file).
+- Explanation in the code about the decisions made (comments).
+
+## Evaluation
+- Before submitting the project, you must show the result obtained running on your simulator. You will have 3 minutes to explain your project.
+- The functionality of the application and the level of completion of the features will be evaluated.
+- The quality of the code, variable names, functions, classes, organization, etc., will be evaluated.
+- The use of elements seen in class will be evaluated.
+- The use of unnecessary elements for the requested implementation will be penalized.
+
+---
+
+## Disclaimer
+This exam does not use Jetpack Compose for user interface development.
